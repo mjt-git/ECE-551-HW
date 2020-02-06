@@ -1,0 +1,66 @@
+Grading at 09/11/2019:18:13:52.091873
+For commit ID cc59be86c1bd8dad9a4fb9bf57b112dddbb50315
+Grading at Wed Sep 11 14:13:51 EDT 2019
+**Testing broken implementation 10 **
+-------------------------------------
+
+power(2, 3) != 8
+
+**Testing broken implementation 11 **
+-------------------------------------
+
+power(1000, 3) != 1000000000
+
+**Testing broken implementation 1 **
+-------------------------------------
+
+power(2, 3) != 8
+
+**Testing broken implementation 2 **
+-------------------------------------
+
+power(0, 3) != 0
+
+**Testing broken implementation 3 **
+-------------------------------------
+
+power(0, 0) != 1
+
+**Testing broken implementation 4 **
+-------------------------------------
+
+power(1000, 3) != 1000000000
+
+**Testing broken implementation 5 **
+-------------------------------------
+
+power(2, 3) != 8
+
+**Testing broken implementation 6 **
+-------------------------------------
+
+power(0, 3) != 0
+
+**Testing broken implementation 7 **
+-------------------------------------
+
+power(0, 3) != 0
+
+**Testing broken implementation 8 **
+-------------------------------------
+
+power(2, 3) != 8
+
+**Testing broken implementation 9 **
+-------------------------------------
+
+power(2, 3) != 8
+
+**Testing correct implementation **
+-------------------------------------
+
+
+All tests were ok.
+
+
+Overall Grade: PASSED
