@@ -1,0 +1,54 @@
+Grading at 09/15/2019:03:49:15.258311
+For commit ID 88d444cfb0a8863590d9613e7d7046f34de56f91
+Grading at Sat Sep 14 23:49:14 EDT 2019
+**Testing broken implementation 10 **
+-------------------------------------
+
+the outcome should be 4, but is 3
+**Testing broken implementation 11 **
+-------------------------------------
+
+the outcome should be 3, but is 4
+**Testing broken implementation 1 **
+-------------------------------------
+
+the outcome should be 1, but is 4
+**Testing broken implementation 2 **
+-------------------------------------
+
+the outcome should be 0, but is 1
+**Testing broken implementation 3 **
+-------------------------------------
+
+the outcome should be 1, but is 2
+**Testing broken implementation 4 **
+-------------------------------------
+
+the outcome should be 0, but is 1
+**Testing broken implementation 5 **
+-------------------------------------
+
+the outcome should be 4, but is 11
+**Testing broken implementation 6 **
+-------------------------------------
+
+the outcome should be 1, but is 0
+**Testing broken implementation 7 **
+-------------------------------------
+
+the outcome should be 3, but is -1
+**Testing broken implementation 8 **
+-------------------------------------
+
+the outcome should be 3, but is 1
+**Testing broken implementation 9 **
+-------------------------------------
+
+the outcome should be 3, but is 1
+**Testing correct implementation **
+-------------------------------------
+
+
+All test programs were handled correctly
+
+Overall Grade: PASSED
