@@ -1,0 +1,32 @@
+Grading at 11/12/2019:01:51:28.476922
+For commit ID 5d0c4b2e1e64af05e06c3ff213ed78c414b1af91
+Grading at Mon Nov 11 20:51:24 EST 2019
+compiling
+g++ -ggdb3 -Wall -Werror -pedantic -std=gnu++98 -o testMap  readFreq.o  node.o  bitstring.o  buildTree.o  testMap.o
+Make succeed, testMap created
+Testcase 1
+-----------------------
+  - Valgrind was clean (no errors, no memory leaks)
+Checking output:
+Your file matched the expected output
+Testcase passed 
+Testcase 2
+-----------------------
+  - Valgrind was clean (no errors, no memory leaks)
+Checking output:
+Your file matched the expected output
+Testcase passed 
+Testcase 3
+-----------------------
+  - Valgrind was clean (no errors, no memory leaks)
+Checking output:
+Your file matched the expected output
+Testcase passed 
+Testcase 4
+-----------------------
+  - Valgrind was clean (no errors, no memory leaks)
+Checking output:
+Your file matched the expected output
+Testcase passed 
+
+Overall Grade: A
