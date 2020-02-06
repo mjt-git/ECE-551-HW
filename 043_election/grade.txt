@@ -1,0 +1,90 @@
+Grading at 10/07/2019:19:17:04.152791
+For commit ID 3da7d9ad08de0c061259289ecbf88b497bd58e2c
+Grading at Mon Oct  7 15:16:43 EDT 2019
+election.c exists (good)
+Attempting to compile election.c
+rm -f *~ printStates printEVotes printRecounts printLargeWin
+gcc -ggdb3 -Wall -Werror -std=gnu99 election.c printStates.o -o printStates
+gcc -ggdb3 -Wall -Werror -std=gnu99 election.c printEVotes.o -o printEVotes
+gcc -ggdb3 -Wall -Werror -std=gnu99 election.c printRecounts.o -o printRecounts
+gcc -ggdb3 -Wall -Werror -std=gnu99 election.c printLargeWin.o -o printLargeWin
+#################################################
+testcase1 of step1:
+testcase1 passed [1/1]
+#################################################
+testcase2 of step1:
+testcase2 passed [1/1]
+#################################################
+testcase3 of step1:
+testcase3 passed [1/1]
+#################################################
+testcase4 of step1:
+testcase4 passed [1/1]
+#################################################
+testcase5 of step1:
+Your file matched the expected output
+testcase5 passed [10/10]
+#################################################
+testcase6 of step1:
+Difficult corner cases
+Line_52_did_not_match
+Line_53_did_not_match
+Line_54_did_not_match
+Line_55_did_not_match
+Your file did not match the expected ouput
+testcase6 failed, your output did not match with the answer [0/6]
+#################################################
+testcase1 of step2:
+Your output is correct [8/8]
+#################################################
+testcase2 of step2:
+Your output is correct [8/8]
+#################################################
+testcase3 of step2:
+Your output is correct [8/8]
+#################################################
+testcase4 of step2:
+Difficult corner cases
+Your output is correct [6/6]
+#################################################
+testcase1 of step3:
+Your output is correct [6/6]
+#################################################
+testcase2 of step3:
+Your output is correct [6/6]
+#################################################
+testcase3 of step3:
+Your output is correct [6/6]
+#################################################
+testcase4 of step3:
+Difficult corner cases
+Your output is correct [2/2]
+#################################################
+testcase1 of step4:
+Your output is correct [8/8]
+#################################################
+testcase2 of step4:
+Your output is correct [8/8]
+#################################################
+testcase3 of step4:
+Your output is correct [8/8]
+#################################################
+testcase4 of step4:
+Difficult corner cases
+Your output is correct [6/6]
+-----------------------------------
+Functionality:  94 points / 100
+------------------------------------
+Code quality:
+ - Format:      3 / 3
+ - Comments:    1 / 3
+ - Abstraction: 2 / 2
+ - Other:       2 / 2
+ Notes from your TA (Simeng):
+Good formatting. Modest comments, no comments before each function (-2). parseLine() is around 60 lines. It will be better to add helper function. A little suggestion is that there are library functions instead of writing functions like isDigit() yourself.
+------------------------------
+Total quality:   8 / 10
+------------------------------
+Overall grade = functionality *0.9 + quality
+
+Overall Grade: 92.6
